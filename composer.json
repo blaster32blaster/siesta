@@ -1,11 +1,17 @@
 {
-    "name": "castlebranch/siesta",
+    "name": "blaster32blaster/siesta-testing",
     "description": "Uniform responses for a RESTful API",
+    "keywords": ["castle branch", "castlebranch", "composer", "package", "siesta", "rest"],
     "version": "1.0.0",
     "authors": [
         {
             "name": "Jason Righter",
             "email": "jdright@castlebranch.com"
+        },
+
+        {
+            "name": "Olaf Broms",
+            "email": "olafbroms@gmail.com"
         }
     ],
     "require": {
@@ -19,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Castlebranch\\Siesta\\": "src/"
+            "blaster32blaster\\SiestaTest\\": "src/"
         }
     }
 }
